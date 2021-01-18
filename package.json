@@ -1,15 +1,38 @@
 {
-  "name": "node-adafruit-mma8541",
-  "version": "1.0.0",
-  "description": "Node i2c module for the Adafruit MMA8451 Accelerometer sensor",
-  "main": "index.js",
-  "scripts": {
-    "test": "tests/inde.js"
-  },
-  "repository": {
+  "_from": "git+https://github.com/leemind/node-adafruit-mma8541.git",
+  "_id": "node-adafruit-mma8541@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/node-adafruit-mma8541",
+  "_phantomChildren": {},
+  "_requested": {
     "type": "git",
-    "url": "git+https://github.com/rynop/node-adafruit-mma8541.git"
+    "raw": "git+https://github.com/leemind/node-adafruit-mma8541.git",
+    "rawSpec": "git+https://github.com/leemind/node-adafruit-mma8541.git",
+    "saveSpec": "git+https://github.com/leemind/node-adafruit-mma8541.git",
+    "fetchSpec": "https://github.com/leemind/node-adafruit-mma8541.git",
+    "gitCommittish": null
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/leemind/node-adafruit-mma8541.git#2dcc7cc9b74aaa28ffb2aae231936a51e768ef5f",
+  "_spec": "git+https://github.com/leemind/node-adafruit-mma8541.git",
+  "_where": "/opt/BoatMonitor/BoatBased",
+  "author": {
+    "name": "ryan.pendergast@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rynop/node-adafruit-mma8541/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "i2c-bus": "5.2.0"
+  },
+  "deprecated": false,
+  "description": "Node i2c module for the Adafruit MMA8451 Accelerometer sensor",
+  "homepage": "https://github.com/rynop/node-adafruit-mma8541#readme",
   "keywords": [
     "adafruit",
     "MMA8451",
@@ -17,13 +40,15 @@
     "sensor",
     "i2c"
   ],
-  "author": "ryan.pendergast@gmail.com",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rynop/node-adafruit-mma8541/issues"
+  "main": "index.js",
+  "name": "node-adafruit-mma8541",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rynop/node-adafruit-mma8541.git"
   },
-  "homepage": "https://github.com/rynop/node-adafruit-mma8541#readme",
-  "dependencies": {
-    "i2c-bus": "5.2.0"
-  }
+  "scripts": {
+    "test": "tests/inde.js"
+  },
+  "version": "1.0.0"
 }
